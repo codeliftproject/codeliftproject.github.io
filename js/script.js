@@ -3,13 +3,13 @@
 
 //------------------------------------- Waiting for the entire site to load ------------------------------------------------//
 
-jQuery(window).load(function() { 
-		jQuery("#loaderInner").fadeOut(); 
-		jQuery("#loader").delay(400).fadeOut("slow"); 
+jQuery(window).load(function() {
+		jQuery("#loaderInner").fadeOut();
+		jQuery("#loader").delay(400).fadeOut("slow");
 });
 
 $(document).ready(function(){
-	
+
 //------------------------------------- Navigation setup ------------------------------------------------//
 
 
@@ -23,8 +23,8 @@ $(document).ready(function(){
 							}).on('mouseleave', function(){
 								$(this).children('ul.dropDown').stop(true,true).fadeOut(200);
 							});
-		
-		
+
+
 //------------------------------------- End navigation setup ------------------------------------------------//
 
 
@@ -54,21 +54,21 @@ $('.mainSlider .slides li').css('height', $(window).height());
 
 
 for(var i = 0; i < $('.mainSlider .slides li').length; i++){
-    
+
     var path = $('.mainSlider .slides li').eq(i).find('img.slide').attr('src');
 	$('.mainSlider .slides li').eq(i).addClass('parallax');
     $('.mainSlider .slides li').eq(i).css('backgroundImage', 'url("' + path + '")');
     $('.mainSlider .slides li').eq(i).find('img.slide').detach();
 
 
-    
+
 }
 
 
 $(document).scroll(function () {
 
         var treshhold = Math.round($(window).scrollTop() / 5);
-        $('li.parallax').css('backgroundPosition', '100% ' + treshhold + 'px');    
+        $('li.parallax').css('backgroundPosition', '100% ' + treshhold + 'px');
 });
 
 
@@ -169,23 +169,23 @@ $('.facts').appear(function() {
 
 $(".itemDesc, .latestDesc, .teamDesc, .prjLink").css({ opacity: 0 });
 
-$('.teamDesc').hover( function(){ 
+$('.teamDesc').hover( function(){
 	$(this).stop().animate({ opacity: 1 }, 'slow');
 	$('.teamDescL').stop().animate({ opacity: 0 }, 'slow');
-}, function(){ 
+}, function(){
 	$(this).stop().animate({ opacity: 0 }, 'slow');
-	$('.teamDescL').stop().animate({ opacity: 1 }, 'slow'); 
+	$('.teamDescL').stop().animate({ opacity: 1 }, 'slow');
 });
 
 
 
 //--------------------------------- Hover animation for the elements of the portfolio --------------------------------//
-				
-	
-$('.itemDesc, .latestDesc, .prjLink').hover( function(){ 
+
+
+$('.itemDesc, .latestDesc, .prjLink').hover( function(){
 	$(this).stop().animate({ opacity: 1 }, 'slow');
-}, function(){ 
-	$(this).stop().animate({ opacity: 0 }, 'slow'); 
+}, function(){
+	$(this).stop().animate({ opacity: 0 }, 'slow');
 });
 
 	$('.itemDesc, .latestDesc, .prjLink').hover(function () {
@@ -193,7 +193,7 @@ $('.itemDesc, .latestDesc, .prjLink').hover( function(){
     var offset = ($(this).height() / 2) - (projDesc.height() / 2);
     $(this).find('.itemDescInner, .latestDescInner, .prjLinkInner').css('padding-top', offset -30);
 });
-			
+
 
 //--------------------------------- End hover animation for the elements of the portfolio --------------------------------//
 
@@ -201,8 +201,8 @@ $('.itemDesc, .latestDesc, .prjLink').hover( function(){
 $('.folio').magnificPopup({
 					  type: 'image'
 					});
-					
-					
+
+
 					$('.popup-youtube, .popup-vimeo').magnificPopup({
 						disableOn: 700,
 						type: 'iframe',
@@ -213,44 +213,44 @@ $('.folio').magnificPopup({
 						fixedContentPos: false
 					});
 
-				
+
 //-----------------------------------End initilaizing fancybox for the portfolio-------------------------------------------------//
 
 	//--------------------------------- Sorting portfolio elements with quicksand plugin  --------------------------------//
-	
+
 		var $portfolioClone = $('.portfolio').clone();
 
 		$('.filter a').click(function(e){
-			$('.filter li').removeClass('current');	
+			$('.filter li').removeClass('current');
 			var $filterClass = $(this).parent().attr('class');
 			if ( $filterClass == 'all' ) {
 				var $filteredPortfolio = $portfolioClone.find('li');
 			} else {
 				var $filteredPortfolio = $portfolioClone.find('li[data-type~=' + $filterClass + ']');
 			}
-			$('.portfolio').quicksand( $filteredPortfolio, { 
+			$('.portfolio').quicksand( $filteredPortfolio, {
 				duration: 800,
-				easing: 'easeInOutQuad' 
+				easing: 'easeInOutQuad'
 			}, function(){
-					$('.itemDesc').hover( function(){ 
+					$('.itemDesc').hover( function(){
 						$(this).stop().animate({ opacity: 1 }, 'slow');
-					}, function(){ 
-						$(this).stop().animate({ opacity: 0 }, 'slow'); 
+					}, function(){
+						$(this).stop().animate({ opacity: 0 }, 'slow');
 					});
-					
+
 						$('.itemDesc').hover(function () {
 					    var projDesc = $(this).find('.itemDesc');
 					    var offset = ($(this).height() / 2) - (projDesc.height() / 2);
 					    $(this).find('.itemDescInner').css('padding-top', offset -30);
 					});
-					
-					
+
+
 
 
 //------------------------------ Reinitilaizing fancybox for the new cloned elements of the portfolio----------------------------//
 
 
-			
+
 			$('.folio').magnificPopup({
 								  type: 'image'
 								});
@@ -290,33 +290,33 @@ $('.folio').magnificPopup({
 
 
 
-$('#submit').click(function(){ 
+$('#submit').click(function(){
 
 	$('input#name').removeClass("errorForm");
 	$('textarea#message').removeClass("errorForm");
 	$('input#email').removeClass("errorForm");
-	
-	var error = false; 
-	var name = $('input#name').val(); 
-	if(name == "" || name == " ") { 
-		error = true; 
+
+	var error = false;
+	var name = $('input#name').val();
+	if(name == "" || name == " ") {
+		error = true;
 		$('input#name').addClass("errorForm");
 	}
-	
-	
-		var msg = $('textarea#message').val(); 
+
+
+		var msg = $('textarea#message').val();
 		if(msg == "" || msg == " ") {
 			error = true;
 			$('textarea#message').addClass("errorForm");
-			
+
 		}
-	
-	var email_compare = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i; 
-	var email = $('input#email').val(); 
-	if (email == "" || email == " ") { 
+
+	var email_compare = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
+	var email = $('input#email').val();
+	if (email == "" || email == " ") {
 		$('input#email').addClass("errorForm");
 		error = true;
-	}else if (!email_compare.test(email)) { 
+	}else if (!email_compare.test(email)) {
 		$('input#email').addClass("errorForm");
 		error = true;
 	}
@@ -325,14 +325,14 @@ $('#submit').click(function(){
 		return false;
 	}
 
-	var data_string = $('.contactForm form, .replyForm form').serialize(); 
-	
+	var data_string = $('.contactForm form, .replyForm form').serialize();
+
 
 	$.ajax({
 		type: "POST",
 		url: $('.contactForm form, .replyForm form').attr('action'),
 		data: data_string,
-		
+
 		success: function(message) {
 				if(message == 'SENDING'){
 					$('#success').fadeIn('slow');
@@ -341,10 +341,10 @@ $('#submit').click(function(){
 					$('#error').fadeIn('slow');
 				}
 					}
-			
+
 	});
 
-	return false; 
+	return false;
 });
 
 
@@ -377,7 +377,7 @@ $(showHideBtn).click(function(e) {
 
 jQuery(".tweets").tweet({
   join_text: false,
-  username: "BenaissaGhrib", // Change username here
+  username: "Codeliftproject", // Change username here
   modpath: './twitter/',
   avatar_size: false,
   count: 1,
@@ -399,7 +399,7 @@ jQuery(".tweets").tweet({
 jQuery.fn.spectragram.accessData={
 	accessToken:'305801553.467ede5.94e8f22591af44eea81bdbd1ca3bff04',
 	clientID:'e659391279a64365a13bfb26b4caf15d'}
-	
+
 $('.instaFeed').spectragram('getUserFeed', {
 		query: 'insideenvato', //Change the instagram feed user to display the feed that you want.
 		size: 'small',
@@ -424,7 +424,7 @@ $('.logoSingle a').click(function(e){
 $(function() {
     var randomImg = ['r1.jpg', 'r2.jpg', 'r3.jpg', 'r4.jpg', 'r5.jpg', 'r6.jpg'];
     $('.imgTS').css({'background-image': 'url(images/teaserImages/' + randomImg[Math.floor(Math.random() * randomImg.length)] + ')'});
-   });        
+   });
 
 //--------------------------------- End random images--------------------------------//
 
