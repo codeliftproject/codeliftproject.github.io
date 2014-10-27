@@ -370,30 +370,6 @@ $(showHideBtn).click(function(e) {
 
 //--------------------------------- End mobile menu --------------------------------//
 
-
-
-//--------------------------------- Twitter feed --------------------------------//
-
-
-jQuery(".tweets").tweet({
-  join_text: false,
-  username: "Codeliftproject", // Change username here
-  modpath: './twitter/',
-  avatar_size: false,
-  count: 1,
-  auto_join_text_default: ' we said, ',
-  auto_join_text_ed: ' we ',
-  auto_join_text_ing: ' we were ',
-  auto_join_text_reply: ' we replied to ',
-  auto_join_text_url: ' we were checking out ',
-  loading_text: 'Loading tweets...'
-
-});
-
-
-
-//--------------------------------- End twitter feed --------------------------------//
-
 //---------------------------------- Instagram feed -----------------------------------------//
 
 jQuery.fn.spectragram.accessData={
