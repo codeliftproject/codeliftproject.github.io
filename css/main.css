@@ -21,8 +21,8 @@
     margin-top: -25px;
     position: absolute;
     text-align: center;
-    
-    
+
+
 }
 
 
@@ -181,7 +181,7 @@ header{
 .showHideBtn{
 	text-align:right;
 	font-size: 18px;
-	
+
 }
 
 .headerSocials{
@@ -208,7 +208,7 @@ header{
 
 
 .logo h1 span {
-	
+
 	color:#4ac2be;
 }
 
@@ -222,7 +222,7 @@ header{
 
 .headerSocials li a, .showHideBtn a {
 	color:#343434;
-	
+
 }
 
 .mainNav ul{
@@ -244,7 +244,7 @@ header{
     display: block;
     padding: 25px 15px;
     position: relative;
-	
+
 }
 
 .mainNav {
@@ -272,18 +272,18 @@ header{
 	text-align:left;
 	border:none;
 	padding-bottom:5px;
-	
+
 }
 
 .mainNav ul ul li{
-	
+
 	width:200px;
 	float: none;
 	display:block;
 	margin-right:0;
 	padding-bottom:0px;
 	position:relative;
-	
+
 }
 
 
@@ -292,14 +292,14 @@ header{
 }
 
 
- 
-									  
+
+
 .mainNav ul ul li a{
-	
+
 	display:block;
 	color:#999999;
 	padding:7px 0 7px 24px;
-} 
+}
 
 .mainNav ul ul li a:hover{
 	color:#343434;
@@ -368,7 +368,7 @@ header{
 	color:#ffffff;
 	font-size:60px;
 	letter-spacing:-1px;
-	
+
 }
 
 
@@ -387,7 +387,7 @@ header{
 	font-size:16px;
 	margin-top:50px;
 	display:inline-block;
-	
+
 }
 
 .ctl a.folioSh{
@@ -414,7 +414,7 @@ header{
 
 .introHolder{
 	position :relative;
-	
+
 }
 
 .introHolder:before{
@@ -452,13 +452,13 @@ header{
 	color:#f1f1f1;
 	font-size:13px;
 	margin-bottom:30px;
-	
+
 }
 
 
 .innerIntro h1 span{
 	font-size:12px;
-	
+
 }
 
 .innerIntro p i{
@@ -466,7 +466,7 @@ header{
 	margin-bottom:10px;
 	color:#4b4b4b;
 	display:block;
-	
+
 }
 
 
@@ -681,7 +681,7 @@ header{
 	-webkit-transform: scale(1.2) ;
 	-o-transform: scale(1.2)  ;
 	.transform: scale(1.2) ;
-	
+
 }
 
 .latestDesc {
@@ -704,7 +704,7 @@ header{
 
 .latestDesc span {
     font-size: 13px;
-	
+
 }
 
 a.latestBtn {
@@ -713,7 +713,7 @@ a.latestBtn {
 	display:inline-block;
 	color:#f1f1f1;
 	font-size:15px;
-	
+
 }
 
 
@@ -880,7 +880,7 @@ a.latestBtn {
 
 
 .teamSingleAlt .tImg img{
-	
+
     border-radius: 100%;
     display: inline-block;
     height: 158px;
@@ -949,7 +949,7 @@ a.latestBtn {
     width: 44%;
 	overflow:hidden;
 	top:0;
-	
+
 }
 
 .imgServices:before{
@@ -967,7 +967,7 @@ a.latestBtn {
 	font-size:18px;
 	color:#ffffff;
 	padding:0 100px;
-	
+
 }
 
 .ceoWord p span.first{
@@ -983,12 +983,12 @@ a.latestBtn {
 	padding:0 100px;
 	margin-top:20px;
 	text-transform:none;
-	
+
 }
 
 .ceoWord h3 span{
 	font-size:13px;
-	
+
 }
 
 .ceoWord p span.last{
@@ -1050,12 +1050,12 @@ a.latestBtn {
 
 .expertsiseContent{
 	border:1px solid #efefef;
-	
+
 }
 
 .expertsiseContent:last-child{
 	border-top:none;
-	
+
 }
 
 .exp {
@@ -1275,7 +1275,7 @@ a.latestBtn {
 }
 
 .planPrice h1 span.cr {
-	
+
  	font-size: 14px;
     left: 4px;
     position: relative;
@@ -1376,7 +1376,7 @@ ul#category li a {
 	-webkit-transform: scale(1.2) ;
 	-o-transform: scale(1.2)  ;
 	.transform: scale(1.2) ;
-	
+
 }
 
 
@@ -1395,7 +1395,7 @@ ul#category li a {
 }
 
 .itemDesc span {
-	
+
 	margin-top: -5px;
 	font-size: 13px;
 	text-transform: none;
@@ -1486,7 +1486,7 @@ ul#category li a {
 	-webkit-transform: scale(1.2) ;
 	-o-transform: scale(1.2)  ;
 	.transform: scale(1.2) ;
-	
+
 }
 
 .prjLinkInner a {
@@ -1585,29 +1585,29 @@ ul#category li a {
 }
 
 .cltInner h1{
-	
+
 	font-size:18px;
 	color:#f1f1f1;
 	margin-bottom:5px;
-	
+
 }
 
 .cltInner p {
-	
+
 	color:#999999;
 	padding:0 270px;
 	margin-bottom:50px;
-	
+
 }
 
 
 .cltInner a{
-	
+
 	color:#ffffff;
 	display:inline-block;
 	background:#4ac2be;
 	text-transform:uppercase;
-	
+
 }
 
 .cltInner a:hover{
@@ -1653,7 +1653,7 @@ ul#category li a {
 	max-width:400px;
 	line-height:32px;
 	margin-bottom:20px;
-	
+
 }
 
 .pstlDet h1 a{
@@ -1669,7 +1669,7 @@ ul#category li a {
     text-align: center;
     width: 60px;
 	margin-top:70px;
-	
+
 }
 
 .postMeta{
@@ -1762,12 +1762,12 @@ ul#category li a {
 }
 
 .postTitle h1 a:hover {
-    
+
 }
 
 .postTitle{
 	margin-bottom:20px;
-	
+
 }
 
 .postTitle span, .postTitle span a {
@@ -1872,7 +1872,7 @@ ul#category li a {
 
 
 .tagsListSingle li a{
-	
+
 	background:#4ac2be;
     color: #ffffff;
     display: inline-block;
@@ -1883,7 +1883,7 @@ ul#category li a {
 
 
 .tagsListSingle li a:hover{
-	
+
 	background:#343434;
     color: #f1f1f1;
 }
@@ -2119,7 +2119,7 @@ ul#category li a {
 	font-family: "open_sanslight", Arial, sans-serif;
 	border:3px solid #f3f3f3;
 	overflow:hidden;
-	
+
 }
 
 .contactForm textarea, .replyForm textarea, .replyFormLarge textarea{
@@ -2178,7 +2178,7 @@ ul#category li a {
 .contactInner h1 {
 	font-size:16px;
 	margin-bottom:15px;
-    
+
 }
 
 .contactInfo ul li{
@@ -2211,20 +2211,20 @@ ul#category li a {
 }
 
 .buyLink a{
-	
+
 	background:#4ac2be;
 	color:#ffffff;
 	display:inline-block;
 	text-transform:uppercase;
 	float:right;
 	border:3px solid #ffffff;
-	
+
 }
 
 .buyLink a:hover{
 	background:#ffffff;
 	color:#4ac2be;
-	
+
 
 }
 
@@ -2292,7 +2292,7 @@ ul#category li a {
 
 .widgetFooter h3{
 	color:#d5d5d5;
-	
+
 }
 
 .introWidget p{
@@ -2303,8 +2303,8 @@ ul#category li a {
 	font-size:12px;
 	margin-top:20px;
 	color:#666666;
-	 
-	
+
+
 }
 
 .instaWidget a {
@@ -2369,7 +2369,7 @@ ul#category li a {
 .subscribeForm input[type="text"]:focus{
 	outline-width: 0;
 	background:#3a3a3a;
-		
+
 }
 
 input[type="submit"]::-moz-focus-inner {border:0;}
@@ -2402,12 +2402,12 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 
 /*Landscape 1024 X 600 */
 @media only screen and (min-width: 1000px) and (max-width: 1030px){
-	
+
 	.bigTitle img {left: 48.01%;width: 4%;}
 	.caption p {padding: 0 300px;}
 
 }
- 
+
 /* (1680x1050) WSXGA+ Display */
 @media only screen and (min-width: 1650px) and (max-width: 1889px) {
 	.bigTitle img {left: 48.7%;width: 2.5%;}
@@ -2434,7 +2434,7 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 /*iPad lanscape*/
 @media screen and (max-device-width: 960px) and (min-width: 1000px) and (max-width: 1030px){
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;} 
+	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;}
 	.facts,.process{background-attachment: scroll;background-position:top center !important;background-size: cover;}
 	.caption p{padding: 0 300px;}
 	.bigTitle img{width:4.1%;left: 48.21%;}
@@ -2446,7 +2446,7 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 /* Tablet Portrait size -> standard 960 */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;} 
+	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;}
 	.facts,.process {background-attachment: scroll;background-position:top center !important;background-size: cover;}
 	.caption p{padding: 0 210px;}
 	.introHolder:before{top:240px;height:230px;}
@@ -2472,9 +2472,9 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 	.teaserMsg h1{font-size:15px;}
 	.subscribeForm input[type="text"]{width:100%;margin-bottom:10px;}
 	.subscribeForm .submitSubcribe{position:static;padding:12px 83px;}
-	
-	
-	
+
+
+
 }
 
 
@@ -2482,9 +2482,9 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;} 
+	.flexslider .slides > li {display: none; -webkit-backface-visibility: visible !important;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	.facts,.process, .mainSlider .slides li{background-attachment: scroll;background-position:top center !important;background-size: cover;}
 	.mainSlider .slides li{padding-bottom:600px;}
@@ -2551,16 +2551,16 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 	.socialsFooter{float:none;margin-top:10px;}
 	.socialsFooter li{margin-right:15px;margin-left:0;}
 
-	
+
 }
 
 
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
-	
+
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
-	.flexslider .slides li {display: none; -webkit-backface-visibility: visible !important;} 
+	.flexslider .slides li {display: none; -webkit-backface-visibility: visible !important;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	.facts,.process, .mainSlider .slides li{background-attachment: scroll;background-position:top center !important;background-size: cover;}
@@ -2593,7 +2593,7 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 	.ftDet h3{font-size:14px;}
 	.latest{width:100%;}
 	.teamSingle, .teamLead{width:100% !important;}
-	
+
 	.clientHolder{padding-bottom:0;}
 	.clients .smallIntro{margin-bottom:30px;}
 	.noGap{width:100% !important;}
@@ -2638,7 +2638,7 @@ input[type="submit"]::-oz-focus-inner {border:0;}
 	,.tweets .tweet_list, .singleDetails .smallIntro p, .clients .smallIntro p, .about .smallIntro p,  .teamAlt .smallIntro p{padding: 0 8px;}
 	.socialsFooter{float:none;margin-top:10px;}
 	.socialsFooter li{margin-right:15px;margin-left:0;}
-	
+
 }
 
 /* -------------------- End media queries -------------------- */
